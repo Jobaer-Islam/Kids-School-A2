@@ -11,3 +11,26 @@ body{
     width: 1160px;
     margin: 0 auto;
 }
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo-name{
+    font-weight: bold;
+    font-size: 32px;
+    margin-left: 10px;
+}
+.nav-content{
+    display: flex;
+    gap: 32px;
+}
+.contact-btn{
+
+}
