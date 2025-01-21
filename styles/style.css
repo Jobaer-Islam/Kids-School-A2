@@ -11,6 +11,9 @@ body{
     width: 1160px;
     margin: 0 auto;
 }
+
+/* navbar styles */
+
 .navbar{
     display: flex;
     justify-content: space-between;
@@ -30,7 +33,30 @@ body{
 .nav-content{
     display: flex;
     gap: 32px;
+    font-size: 20px;
+}
+.nav-content-1{
+    color: #FEA301;
+    font-weight: bold;
+}
+.nav-content-2, .nav-content-3, .nav-content-4{
+    font-weight: 500;
+}
+.nav-content-2{
+    color: #01ACFD;
+}
+.nav-content-3{
+    color:#05D4DF;
+}
+.nav-content-4{
+    color: #5D58EF;
 }
 .contact-btn{
-
+    background-color:#FEA301 ;
+    border-radius: 12px;
+    color: white;
+    padding: 10px 60px;
+    font-weight: 600;
+    font-size: 20px;
+    border: none;
 }
