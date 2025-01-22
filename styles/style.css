@@ -7,7 +7,7 @@
     font-family: "Quicksand", serif;
     box-sizing: border-box;
 }
-body{
+.container{
     max-width: 1160px;
     margin: 0 auto;
 }
@@ -98,6 +98,75 @@ body{
     border-radius: 12px;
     padding: 10px 46px;
     border: none;
+}
+/* Curriculum section styles */
+.curriculum{
+    background-image: url("/assets/bg.png");
+    height: 880px; width: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.curriculum h2{
+    font-size: 46px;
+    font-weight: bold;
+    margin-bottom: 80px;
+}
+.curriculum-container{
+    display: flex;
+    gap: 28px;
+
+}
+.card{
+    margin-bottom: 80px;
+    border-radius: 18px;
+    padding: 52px 40px;
+}
+.card-title{
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 32px;
+    margin-bottom: 32px;
+
+}
+.card-description{
+    font-weight: 500;
+    font-size: 14px;
+    color:rgba(128, 128, 128, 1);
+    margin-bottom: 32px;
+}
+.more-card{
+    font-size: 15px;
+    font-weight: 700;
+}
+#k{
+    color: #64C8FF;
+}
+#e{
+    color: #F0AA00;
+}
+#m{
+    color:#8700FF;
+}
+
+.kinder{
+    border: 1px solid #FFF4DC;
+    background-image: linear-gradient(to bottom,  #DEF5FF, rgb(255, 255, 255),transparent );
+
+}
+.elementary{
+    border: 1px solid #FFF4DC;
+    background-image: linear-gradient(to bottom,  #FFF4DC, rgb(255, 255, 255),transparent );
+
+
+}
+.middle{
+    border: 1px solid #FFF4DC;
+    background-image: linear-gradient(to bottom,  #F2E8FF, rgb(255, 255, 255),transparent );
+
 }
 
 
