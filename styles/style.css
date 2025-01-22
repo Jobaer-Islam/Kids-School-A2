@@ -98,6 +98,7 @@
     border-radius: 0.75rem;
     padding: 0.625rem 2.875rem;
     border: none;
+    margin-top: 3rem;
 }
 /* Curriculum section styles */
 .curriculum{
@@ -190,6 +191,152 @@ i{
     width: 60px;
     height: 60px;
 }
+/* Our stories section styles */
+
+.stories{
+    background-image: url("/assets/bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: start;
+}
+.mainCont{
+    padding: 4rem 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.mainCont h2{
+    margin-bottom: 80px;
+}
+.align-con{
+    text-align: center
+    
+}
+
+.story-card{
+    display: flex;
+    gap:1.125rem;
+}
+.story-card img{
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+
+}
+#fun{
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding: 3.625rem 2.375rem 3rem 2.375rem ;
+}
+.cards{
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    gap: 1.25rem;
+    width: 37.5rem;
+}
+.s-card-1{
+    display: flex;
+    flex-direction: column;
+    width: 34rem;
+}
+.s-card-1 p{
+    color: #666666;
+    font-weight: 500;
+    font-size: 1rem;
+    padding:0 4.25rem 2.125rem 2.375rem ;
+}
+
+.s-card-1, .s-card-2, .s-card-3, .s-card-4, .s-card-5{
+    background-color: white;
+    border-radius: 1rem;
+    border: none;
+}
+.s-card-2, .s-card-3, .s-card-4, .s-card-5 p{
+    font-size: 1rem;
+    font-weight: 700;
+}
+.card-padding{
+    padding: 2.4rem 2.4rem 1.75rem 2.4rem;
+}
+.story-btn{
+    border-radius: 3rem;
+    background-color:rgba(149, 178, 38, 1) ;
+    width: 11rem;
+    height: 2.4rem;
+    border: none;
+    color: white;
+}
+.bigCard{
+    position: relative;
+}
+.bigCard button{
+    position: absolute;
+    left: 50px;
+    top: 320px;
+}
+.cards div{
+    position: relative;
+}
+.cards div button{
+    position: absolute;
+    left: 53px;
+    top: 159px;
+}
+.bg{
+    background-image: linear-gradient(360deg,rgba(247, 188, 78, 0.548), rgba(212, 178, 184, 0));
+}
+.bg-btn-1{
+    background-color:rgba(60, 216, 232, 1) ;
+}
+.bg-btn-3{
+    background-color: rgba(93, 88, 240, 1);
+}
+
+/* footer section styles */
+.kids-edu-section{
+    background-color: #01ACFD;
+}
+.kids-edu{
+    max-width: 1170px;
+    display: flex;
+    gap: 4rem;
+    padding: 7.75rem 10.875rem;
+    justify-content:center;
+    align-items: center;
+    margin: 0 auto;
+    color: white;
+    flex-wrap: wrap;
+}
+.kids-edu .sec{
+    min-height: 240px;
+}
+.logo-and-description{
+    max-width: 400px;
+}
+.kids-edu-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logoNhead{
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+
+}
+.ab-schl{
+    margin-bottom: 2rem;
+    font-weight: 700;
+}
+.abt-scl{
+    margin-bottom: 1.25rem;
+}
+/* .marg{
+    margin-right: 4rem;
+} */
+.icnHeading{
+    margin-bottom: 2rem;
+}
 
 
 
@@ -244,6 +391,15 @@ i{
         margin-bottom: 0;
     }
     .next-btn{
+        display: none;
+    }
+    .kids-edu{
+        padding: 2rem;
+    }
+    .story-card{
+        flex-wrap: wrap;
+    }
+    .bigCard{
         display: none;
     }
 
