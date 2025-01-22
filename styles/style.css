@@ -63,11 +63,11 @@
 }
 .contact-btn{
     background-color:#FEA301 ;
-    border-radius: 12px;
+    border-radius: 0.75rem;
     color: white;
-    padding: 10px 60px;
+    padding: 0.625rem 3.75rem;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 1.25rem;
     border: none;
 }
 
@@ -75,28 +75,28 @@
 .banner-container{
     display: flex;
     align-items: center;
-    gap: 50px;
+    gap: 3.125rem;
 }
 .banner-title{
-    font-size: 56px;
+    font-size: 3.5rem;
     font-weight: bold;
 }
 .title-empower{
     color: #FEA301;
 }
 .ban-description{
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 400;
-    margin-top: 24px;
-    margin-bottom: 24px;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
 }
 .ban-btn{
     background-color: #111111;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: bold;
     color: white;
-    border-radius: 12px;
-    padding: 10px 46px;
+    border-radius: 0.75rem;
+    padding: 0.625rem 2.875rem;
     border: none;
 }
 /* Curriculum section styles */
@@ -107,39 +107,41 @@
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: 3.75rem;
+    padding-bottom: 3.75rem;
 }
 .curriculum h2{
-    font-size: 46px;
+    font-size: 2.9rem;
     font-weight: bold;
-    margin-bottom: 80px;
+    margin-bottom: 5rem;
 }
 .curriculum-container{
     display: flex;
-    gap: 28px;
+    gap: 1.75rem;
 
 }
 .card{
-    margin-bottom: 80px;
-    border-radius: 18px;
-    padding: 52px 40px;
+    margin-bottom: 5rem;
+    border-radius: 1.125rem;
+    padding: 3.25rem 2.5rem;
+    max-width:368px;
+    max-height: 476px;
 }
 .card-title{
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: bold;
-    margin-top: 32px;
-    margin-bottom: 32px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 
 }
 .card-description{
     font-weight: 500;
-    font-size: 14px;
+    font-size: 0.9rem;
     color:rgba(128, 128, 128, 1);
-    margin-bottom: 32px;
+    margin-bottom: 2rem;
 }
 .more-card{
-    font-size: 15px;
+    font-size: 1rem;
     font-weight: 700;
 }
 #k{
@@ -153,21 +155,42 @@
 }
 
 .kinder{
-    border: 1px solid #FFF4DC;
-    background-image: linear-gradient(to bottom,  #DEF5FF, rgb(255, 255, 255),transparent );
+    border: 1px solid #DEF5FF;
+    background-image: linear-gradient(to bottom,  #DEF5FF, rgb(255, 255, 255));
 
 }
 .elementary{
     border: 1px solid #FFF4DC;
-    background-image: linear-gradient(to bottom,  #FFF4DC, rgb(255, 255, 255),transparent );
+    background-image: linear-gradient(to bottom,  #FFF4DC, rgb(255, 255, 255));
 
 
 }
 .middle{
-    border: 1px solid #FFF4DC;
-    background-image: linear-gradient(to bottom,  #F2E8FF, rgb(255, 255, 255),transparent );
-
+    border: 1px solid #F2E8FF;
+    background-image: linear-gradient(to bottom,  #F2E8FF, rgb(255, 255, 255));
 }
+.next-btn{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+    gap: 10px;
+
+    
+}
+
+i{
+    color: #fff;
+    font-weight: 700;
+    font-size: 24px;
+}
+.next-btn-design{
+    border-radius: 50%;
+    background-color: #FEA301;
+    padding: 17px 22px 19px 22px;
+    width: 60px;
+    height: 60px;
+}
+
 
 
 
@@ -191,7 +214,7 @@
     .logo{
         width: 100%;
         display: flex;
-        margin: 12px 16px;
+        margin: 0.75rem 1rem;
         justify-content: space-between;
     }
     .hamburger-img{
@@ -202,13 +225,26 @@
 
     .banner-container{
         flex-direction: column-reverse;
-        gap: 20px;
-        margin: 20px 10px;
+        gap: 1.25rem;
+        margin: 1.25rem 0.65rem;
         text-align: center;
         
     }
     .banner-container .banner-img{
-        margin-top: 20px;
+        margin-top: 1.25rem;
+    }
+
+    /*curriculum styles  */
+    .curriculum-container{
+        flex-direction: column;
+        gap: 12px;
+        align-items: center;
+    }
+    .card{
+        margin-bottom: 0;
+    }
+    .next-btn{
+        display: none;
     }
 
 }
